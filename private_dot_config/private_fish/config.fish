@@ -15,3 +15,5 @@ alias dclogs="docker-compose logs -f"
 alias l="ls -lah"
 
 export EDITOR=nvim
+
+starship init fish | source
