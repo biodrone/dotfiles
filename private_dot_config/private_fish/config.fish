@@ -15,5 +15,6 @@ alias dclogs="docker-compose logs -f"
 alias l="ls -lah"
 
 export EDITOR=nvim
+export STARSHIP_CACHE=~./config/starship/cache
 
 starship init fish | source
