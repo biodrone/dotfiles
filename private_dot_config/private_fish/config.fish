@@ -13,6 +13,7 @@ alias dcbuild="docker-compose build"
 alias dcrebuild="docker-compose down && docker-compose up -d"
 alias dclogs="docker-compose logs -f"
 alias l="ls -lah"
+alias code=code-insiders
 
 ## Terra* Aliases
 alias tf=terraform
