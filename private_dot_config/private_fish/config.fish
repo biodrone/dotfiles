@@ -14,5 +14,9 @@ alias dcrebuild="docker-compose down && docker-compose up -d"
 alias dclogs="docker-compose logs -f"
 alias l="ls -lah"
 
+## Terra* Aliases
+alias tf=terraform
+alias ts=terraspace
+
 export EDITOR=nvim
 
