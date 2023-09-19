@@ -14,10 +14,10 @@ alias dcrebuild="docker-compose down && docker-compose up -d"
 alias dclogs="docker-compose logs -f"
 alias l="ls -lah"
 alias code=code-insiders
-
-## Terra* Aliases
 alias tf=terraform
 alias ts=terraspace
+alias chez=chezmoi
 
+## Core OS Exports
 export EDITOR=nvim
 
