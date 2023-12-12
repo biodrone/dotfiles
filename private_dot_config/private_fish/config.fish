@@ -2,10 +2,10 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
-## Fix SSH Agent
+# Fix SSH Agent
 fish_ssh_agent
 
-## Aliases
+# Aliases
 alias dcup="docker compose up -d"
 alias dcpull="docker compose pull"
 alias dcdown="docker compose down"
@@ -18,6 +18,6 @@ alias tf=terraform
 alias ts=terraspace
 alias chez=chezmoi
 
-## Core OS Exports
+# Core OS Exports
 export EDITOR=nvim
 
