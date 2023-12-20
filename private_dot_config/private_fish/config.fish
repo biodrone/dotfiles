@@ -21,3 +21,8 @@ alias chez=chezmoi
 # Core OS Exports
 export EDITOR=nvim
 
+# Theme Settings - bobthefish
+set -g theme_date_timezone Europe/London
+set -g theme_newline_cursor yes
+set -g fish_prompt_pwd_dir_length 0
+
