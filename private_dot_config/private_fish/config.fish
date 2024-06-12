@@ -21,6 +21,9 @@ alias chez=chezmoi
 # Core OS Exports
 export EDITOR=nvim
 
+# Mosh Fix for NixOS
+export LOCALE_ARCHIVE=/usr/lib/locale/locale-archive
+
 # Theme Settings - bobthefish
 set -g theme_date_timezone Europe/London
 set -g theme_newline_cursor yes
