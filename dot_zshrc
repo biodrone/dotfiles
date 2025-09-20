@@ -70,6 +70,9 @@ alias dcup="docker-compose up -d"
 alias dclogs="docker-compose logs -f"
 alias dcrebuild="docker-compose down && docker-compose up -d"
 alias dcpull="docker-compose pull"
+alias chez="chezmoi"
+alias tf=terraform
+alias ts=terraspace
 
 #---Docker Variables---#
 export DOCKER_CONFIG=~/.config/docker
