@@ -21,6 +21,7 @@ plugins=(
   tmux
   vagrant
   zsh-syntax-highlighting
+  zsh-autosuggestions
 )
 
 #---Launch SSH Agent---#
