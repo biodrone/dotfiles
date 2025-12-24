@@ -64,12 +64,12 @@ alias l="ls -lah"
 
 #---Docker---#
 alias dbuild="docker build"
-alias dcbuild="docker-compose build"
-alias dcdown="docker-compose down"
-alias dcup="docker-compose up -d"
-alias dclogs="docker-compose logs -f"
-alias dcrebuild="docker-compose down && docker-compose up -d"
-alias dcpull="docker-compose pull"
+alias dcbuild="docker compose build"
+alias dcdown="docker compose down"
+alias dcup="docker compose up -d"
+alias dclogs="docker compose logs -f"
+alias dcrebuild="docker compose down && docker compose up -d"
+alias dcpull="docker compose pull"
 alias chez="chezmoi"
 alias tf=terraform
 alias ts=terraspace
